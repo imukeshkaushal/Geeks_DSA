@@ -57,7 +57,7 @@ Q.9 What is Selection Sort?
 
 Q.10 What is bubble sort?
 
-- Bubble Sort is a simplest sorting algorithm that works by repidly swapping the adjucent element if they are in wrong order. This algorithm is not applicable for the large data if the worse cases the time complexity is very hight.
+- Bubble Sort is a simplest sorting algorithm that works by repidly swapping the adjucent element if they are in wrong order. This algorithm is not applicable for the large data if the worse cases the time complexity is very high.
 
 Q.11 What is hashing?
 
