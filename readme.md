@@ -39,7 +39,7 @@ Q.6 What is Linked List &  Types of its?
 
 - Singly Linked List : Every node stores the address or reference of the next node. The last node is has address as null. i.e. 1 -> 2 -> 3 -> 4 -> null
 
-- Doubly Linked List, 
+- Doubly Linked List : Doubly linked list is a complex type of linked list in which a node contains a pointer to the previous as well as the next node in the sequence.
 
 - Circuler Linked List  : All Nodes connected in the form of Circuler. There is no null at the end.
 
@@ -100,3 +100,100 @@ Q.20 What is Loop in Javascript?
 
 - Loops are used in JavaScript to perform repeated tasks based on a condition. Conditions typically return true or false . A loop will continue running until the defined condition returns false .
 
+
+Q.21. Is Recursion is an Algoritim ?
+
+- Yes, Recursion is an Algoritim because the fuction is calling itself by the direct or indirect.
+
+Q.22. What are the time compexity of the basis Queue operations (enque, dequeue, Peek) ?
+
+- O(1);
+
+Q.23. What are the time compexity of the basis Stack operations (push, pop, top) ?
+
+- O(1);
+
+Q.24. What do you understand by the Binery Search?
+
+- Binary search is an efficient algorithm for finding an item from a sorted list of items. It works by repeatedly dividing in half the portion of the list that could contain the item, until you've narrowed down the possible locations to just one.
+
+Q.25. What are some common uses for 2 D Arrays in Programming?
+
+- Using 2d arrays, you can store so much data at one moment, which can be passed at any number of functions whenever required.
+
+Q.26. What are the benefits and limitation of using Two Pointer Technique?
+
+- 
+
+Q.27. How would you impliment an algoritim for solving the knapsack Problem? What is the Time complexity of this algoritim? 
+
+-
+
+Q.28. Difference between Stack and Queue?
+
+- Stack : 
+
+1. A stack is a data structure that stores a collection of elements, with operations to push (add) and pop (remove) elements from the top of the stack.
+
+2. Stacks are based on the LIFO principle, i.e., the element inserted at the last, is the first element to come out of the list.
+
+3. Insertion and deletion in stacks takes place only from one end of the list called the top.
+
+4. Stack does not have any types.
+
+- Queue :
+
+1. A queue is a data structure that stores a collection of elements, with operations to enqueue (add) elements at the back of the queue, and dequeue (remove) elements from the front of the queue.
+
+2. Queues are based on the FIFO principle, i.e., the element inserted at the first, is the first element to come out of the list.
+
+3. Insertion and deletion in queues takes place from the opposite ends of the list. The insertion takes place at the rear of the list and the deletion takes place from the front of the list.
+
+4. Queue is of three types – 1. Circular Queue 2. Priority queue 3. double-ended queue.
+
+Q.29. What is Insertion Sort?
+
+- Insertion sort is a sorting algorithm in which the elements are transferred one at a time to the right position. In other words, an insertion sort helps in building the final sorted list, one item at a time, with the movement of higher-ranked elements. An insertion sort has the benefits of simplicity and low overhead.
+
+Q.30. Difference between Data Structure and Algoritim?
+
+- Data Structure : 
+
+1. 	Defination : The way data is organized, stored, and retrieved
+2.  Perpose : Provides an efficient way to organize and store data for easy retrieval and modification
+3.  Operations : Insertion, Deletion, Search, Update, Traverse, etc.
+4.  Examples : Array, Linked List, Stack, Queue, Tree, Graph, Hash Table, etc.
+
+
+- Algoritim : 
+ 
+1. Defination : A set of instructions used to solve a specific problem or perform a specific task
+2. Perpose : Provides a systematic approach to solving problems by breaking them down into smaller, more manageable steps
+
+3. Operations : Sorting, Searching, Optimization, Pathfinding, etc.
+4. Examples : Sorting, Searching, Graph Traversal, Dynamic Programming, Divide and Conquer, etc.
+
+Q.31. How does Dequeue Differs from Queue?
+
+- The operations allowed in the queue are:
+
+1. insert an element at the rear
+2. delete element from the front
+3. get the last element
+4. get the first element
+5. check the size of the queue
+6. check if the queue is empty or not
+
+- The operations allowed in deque are:
+1. insert an element at the back
+2. Insert an element at the front
+3. delete the element at the back
+4. delete the element from the front
+5. get the last element
+6. get the first element
+7. check the size of the deque
+8. check if the deque is empty or not
+
+Q.32. How does memoization improve the performance of a recursive function?
+
+* Memoization is a way to potentially make functions that use recursion run faster. As I'll show in an example below, a recursive function might end up performing the same calculation with the same input multiple times.
